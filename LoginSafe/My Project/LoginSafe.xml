@@ -1,0 +1,47 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+LoginSafe
+</name>
+</assembly>
+<members>
+<member name="T:LoginSafe.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:LoginSafe.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:LoginSafe.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="F:LoginSafe.FormLogin.Loggedin">
+ <summary>
+ True if decription worked using the entered password
+ </summary>
+</member>
+<member name="M:LoginSafe.FormLogin.SaveButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ Add, delete or modifies an entry
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:LoginSafe.FormLogin.Clip(System.String)">
+ <summary>
+ puts the named data into the clipboard
+ </summary>
+ <param name="ch"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>
