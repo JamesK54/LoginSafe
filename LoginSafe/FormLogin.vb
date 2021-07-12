@@ -29,8 +29,13 @@ Public Class FormLogin
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles Me.Load
         Me.TopMost = True
+        Dim automatic = vbTrue
         Dim fileReader As String
-        fileReader = My.Computer.FileSystem.ReadAllText(KeyPathName)
+        Try
+            fileReader = My.Computer.FileSystem.ReadAllText(KeyPathName)
+        Catch
+            automatic = vbFalse
+        End Try
         wrapper = New Simple3Des(fileReader)
         FindAll()
         ListBox_Names.Select()
